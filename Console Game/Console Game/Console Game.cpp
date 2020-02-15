@@ -14,9 +14,9 @@ int main()
     cin >> bean;
 
     // If you type "beans" then it outputs the correct line.
-    if (bean == "beans") {
+    if (bean == "beans" || bean == "BEANS" || bean == "Beans") {
         system("CLS");
-        cout << "I am the bean boi.\n" "I got the most beans around.\n" "I will give you beans.\n" "If you're feeling down.\n" "But if you take my beans.\n" "Without permission.\n" "I'll cut your dick off.\n" "In my kitchen." << endl << endl;
+        cout << "I am the bean boi.\n" "I got the most beans around.\n" "I will give you beans.\n" "If you're feeling down.\n" "But if you take my beans.\n" "Without permission.\n" "I'll cut your *PP* off.\n" "In my kitchen." << endl << endl;
         system("pause");
     }
     else
@@ -25,17 +25,17 @@ int main()
         cout << "No, no, no. It has to be something more **BEANS**. Wink wink, nudge nudge.\n " << endl << "Honestly if you can get it now then i don't know if i can save you anymore.\n";
         cin >> bean;
 
-        if (bean == "beans") {
+        if (bean == "beans" || bean == "BEANS" || bean == "Beans") {
             system("CLS");
-            cout << "I am the bean boi.\n" "I got the most beans around.\n" "I will give you beans.\n" "If you're feeling down.\n" "But if you take my beans.\n" "Without permission.\n" "I'll cut your dick off.\n" "In my kitchen." << endl << endl;
+            cout << "I am the bean boi.\n" "I got the most beans around.\n" "I will give you beans.\n" "If you're feeling down.\n" "But if you take my beans.\n" "Without permission.\n" "I'll cut your *PP* off.\n" "In my kitchen." << endl << endl;
             system("pause");
         };
 
-        if (bean != "beans")
+        if (bean != "beans" || bean != "BEANS" || bean != "Beans")
         {
             system("CLS");
             cout << "Are you actually retarded?\n" "You know what, no.\n" "You don't deserve to get the secret!\n";
-            cin.get();
+            system("pause");
         };
     };
     
