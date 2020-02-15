@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <stdlib.h>
+#include <functional>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ int main()
     cout << "Maybe you need to type something... special...\n";
     cin >> bean;
 
+    // If you type "beans" then it outputs the correct line.
     if (bean == "beans") {
         system("CLS");
         cout << "I am the bean boi.\n" "I got the most beans around.\n" "I will give you beans.\n" "If you're feeling down.\n" "But if you take my beans.\n" "Without permission.\n" "I'll cut your dick off.\n" "In my kitchen." << endl << endl;
@@ -22,6 +24,13 @@ int main()
         system("CLS");
         cout << "No, no, no. It has to be something more **BEANS**. Wink wink, nudge nudge.\n " << endl << "Honestly if you can get it now then i don't know if i can save you anymore.\n";
         cin >> bean;
+
+        if (bean == "beans") {
+            system("CLS");
+            cout << "I am the bean boi.\n" "I got the most beans around.\n" "I will give you beans.\n" "If you're feeling down.\n" "But if you take my beans.\n" "Without permission.\n" "I'll cut your dick off.\n" "In my kitchen." << endl << endl;
+            system("pause");
+        };
+
         if (bean != "beans")
         {
             system("CLS");
@@ -29,7 +38,7 @@ int main()
             cin.get();
         };
     };
-
+    
 
     cin.get();
 }
